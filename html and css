@@ -1,0 +1,219 @@
+htmlcode
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+        <div id="sectionhome">
+          <div class="home-page-bg d-flex flex-column justify-content-end">
+                <div class="home-page-card">
+                    <h1 class="home-page-heading">Sunrise Avenue</h1>
+                    <p class="home-page-para">Move what moves you</p>
+                    <button class="btn button1" onclick="display('sectionflatdeatils')">Book Flat</button>
+                </div>
+          </div>
+        </div>
+        <div id="sectionflatdeatils">
+            <div class="second-page-bg">
+                <h1 class="second-page-heading">Sunrise Avenue</h1>
+                <div class="second-page-card d-flex flex-row justify-content-start" onclick="display('section3bhkflat')">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" class="flat-img"/>
+                    <div>
+                        <h1 class="second-page-card-heading">3BHK FLAT</h1>
+                        <p class="second-page-card-para">This is a fully furnished house with handmade furniture including a luxury en-suite facilities pack. Its built-up area is about 1600sq.ft. A spacious home for you to live in.</p>
+                    </div>
+                </div>
+                <div class="second-page-card d-flex flex-row justify-content-start" onclick="display('section2bhkflat')">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="flat-img"/>
+                    <div>
+                        <h1 class="second-page-card-heading">2BHK FLAT</h1>
+                        <p class="second-page-card-para">A minimalist house made for modern- day families. It is fully furnished with trending furniture. Its built-up area is about 1200sq.ft.</p>
+                    </div>
+                </div>
+                <div class="second-page-card d-flex flex-row justify-content-start" onclick="display('section4bhkflat')">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="flat-img"/>
+                    <div>
+                        <h1 class="second-page-card-heading">4BHK FLAT</h1>
+                        <p class="second-page-card-para">A contemporary home with more color and vibrancy. It is fully furnished with elegant furniture. Its built-up area is about 3600sq.ft.</p>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn button-back" onclick="display('sectionhome')">Back</button>
+                </div>
+            </div>
+        </div>
+        <div id="section3bhkflat">
+            <div class="second-page-bg" >
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" class="bhk-flat-img"/>
+                <h1 class="second-page-heading">RS 3000/-</h1>
+                <div class="d-flex flex-rew justify-content-start">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="location-img"/>
+                    <p class="second-page-card-para">D/N 5-2,Food Street, Indoor</p>
+                </div>
+                <hr class="style">
+                <h1 class="second-page-heading">Description</h1>
+                <p class="descrption-para">This is a fully furnished house with handmade furniture including a luxury en-suite facilities pack. Its built-up area is about 1600sq.ft. A spacious home for  you to live in.</p>
+                <div class="last-button">
+                    <button class="btn button1" onclick="display('sectionhome')">Conform</button>
+                    <button class="btn button-back" onclick="display('sectionflatdeatils')" >Back</button>
+                </div>
+            </div>
+            
+        </div>
+        <div id="section2bhkflat">
+            <div class="second-page-bg" >
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="bhk-flat-img"/>
+                <h1 class="second-page-heading">RS Rs 2000/-/-</h1>
+                <div class="d-flex flex-rew justify-content-start">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="location-img"/>
+                    <p class="second-page-card-para">D/N 6-2, Food Street, Indore</p>
+                </div>
+                <hr class="style">
+                <h1 class="second-page-heading">Description</h1>
+                <p class="descrption-para">A minimalist house made for modern-day families. It is fully furnished with trending furniture. Its built-up area is about 1200sq.ft.</p>
+                <div class="last-button">
+                    <button class="btn button1" onclick="display('sectionhome')">Conform</button>
+                    <button class="btn button-back" onclick="display('sectionflatdeatils')">Back</button>
+                </div>
+            </div>
+            
+        </div>
+        <div id="section4bhkflat">
+            <div class="second-page-bg" >
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="bhk-flat-img"/>
+                <h1 class="second-page-heading">RS Rs 4000/-/-</h1>
+                <div class="d-flex flex-rew justify-content-start">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="location-img"/>
+                    <p class="second-page-card-para">D/N5-2, Food Street, Indore</p>
+                </div>
+                <hr class="style">
+                <h1 class="second-page-heading">Description</h1>
+                <p class="descrption-para">A contemporary home with more color and vibrancy. It is fully furnished with elegant furniture. Its built-up area is about 3600sq.ft.</p>
+                <div class="last-button">
+                    <button class="btn button1" onclick="display('sectionhome')">Conform</button>
+                    <button class="btn button-back" onclick="display('sectionflatdeatils')">Back</button>
+                </div>
+            </div>
+            
+        </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+css code
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.home-page-bg{
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-bg.png");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.home-page-card{
+    background-color: #ffffff;
+    text-align: center;
+    font-family:"Bree Serif" ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.home-page-heading{
+    color:#f19116;
+    font-size: 28px;
+    padding: 6px;
+    margin-top:25px;
+}
+.home-page-para{
+    color:#7b8794;
+}
+.button1{
+    background-color:#f19116 ;
+    color:#ffffff;
+    padding: 8px;
+    margin: 12px;
+    margin-bottom: 15px;
+}
+.second-page-bg{
+    background-color: #222222;
+    height: 138vh;
+    width: 100vw;
+    background-size:cover;
+}
+.flat-img{
+    height: 200px;
+    width: 90px;
+ 
+}
+.second-page-card{
+    background-color: #ffffff;
+    font-family:"Bree Serif" ;
+    margin-top: 12px;
+    border-radius: 15px;
+    margin:12px;
+}
+.second-page-heading{
+    color:#f19116;
+    font-size: 28px;
+    padding: 10px;
+    padding-left: 15px;
+}
+.second-page-card-heading{
+    color:#0f0e46;
+    padding-top:10px;
+    padding-left: 10px;
+    font-size: 28px;
+    font-family:"Bree Serif" ;
+}
+.second-page-card-para{
+    padding-left: 10px;
+    color:#7b8794;
+    font-family:"Bree Serif" ;
+}
+.button-back{
+    background-color:#f19116 ;
+    color:#ffffff;
+    padding: 8px;
+    margin: 12px;
+    margin-bottom: 15px;
+    width: 100px;
+}
+.bhk-flat-img{
+    height: 40vh;
+    width: 100vw;
+}
+.hrr{
+    color:white;
+}
+.style{
+    width:100%;
+    
+    margin-left:10px;
+    margin-right:10px;
+    background-color: #ffffff;
+}
+.location-img{
+    height: 37px;
+    width: 50px;
+    padding-left:15px;
+}
+.descrption-para{
+    color:#ffffff;
+    padding-left:15px;
+    font-family:"Bree Serif" ;
+}
+.last-button{
+    text-align: center;
+}
+
+
